@@ -11,4 +11,8 @@ class Solution(object):
                 triangle[layer][val] += min(triangle[layer+1][val], triangle[layer+1][val+1])
                 
         return triangle[0][0]
+<<<<<<< HEAD
         
+=======
+        
+>>>>>>> 7a155c2dbb8eae28b188f1678143f27323e8eb21
